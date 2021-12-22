@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "spartanfire:item/saber_myrmexdesert"
+  },
+  "parent": "spartanweaponry:item/saber_wood"
+}

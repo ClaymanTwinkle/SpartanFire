@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "spartanfire:item/spear_fire_dragon"
+  },
+  "parent": "spartanweaponry:item/spear_wood"
+}

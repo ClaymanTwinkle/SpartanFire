@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "spartanfire:item/katana_myrmexdesert_venom"
+  },
+  "parent": "spartanweaponry:item/katana_wood"
+}

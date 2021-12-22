@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "spartanfire:item/dagger_dragonbone_fire"
+  },
+  "parent": "spartanweaponry:item/dagger_wood"
+}

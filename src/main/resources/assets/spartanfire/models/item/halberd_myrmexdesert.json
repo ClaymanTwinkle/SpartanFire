@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "spartanfire:item/halberd_myrmexdesert"
+  },
+  "parent": "spartanweaponry:item/halberd_wood"
+}

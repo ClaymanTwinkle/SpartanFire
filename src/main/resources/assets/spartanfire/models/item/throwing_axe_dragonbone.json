@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "spartanfire:item/throwing_axe_dragon"
+  },
+  "parent": "spartanweaponry:item/throwing_axe_wood"
+}

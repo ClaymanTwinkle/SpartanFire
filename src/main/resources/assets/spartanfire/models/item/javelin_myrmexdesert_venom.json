@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "spartanfire:item/javelin_myrmexdesert_venom"
+  },
+  "parent": "spartanweaponry:item/javelin_wood"
+}

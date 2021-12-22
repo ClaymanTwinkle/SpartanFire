@@ -1,0 +1,7 @@
+
+{
+  "textures": {
+    "layer0": "spartanfire:item/battleaxe_dragonsteel_fire"
+  },
+  "parent": "spartanweaponry:item/battleaxe_wood"
+}

@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "spartanfire:item/lance_myrmexdesert_venom"
+  },
+  "parent": "spartanweaponry:item/lance_wood"
+}

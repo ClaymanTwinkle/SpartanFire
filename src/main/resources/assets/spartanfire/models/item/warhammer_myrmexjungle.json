@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "spartanfire:item/warhammer_myrmexjungle"
+  },
+  "parent": "spartanweaponry:item/warhammer_wood"
+}

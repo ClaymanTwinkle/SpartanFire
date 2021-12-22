@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "spartanfire:item/quarterstaff_dragonsteel_ice"
+  },
+  "parent": "spartanweaponry:item/quarterstaff_wood"
+}

@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "spartanfire:item/tomahawk_dragonbone_fire"
+  },
+  "parent": "spartanweaponry:item/tomahawk_wood"
+}

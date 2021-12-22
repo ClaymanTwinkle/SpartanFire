@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "spartanfire:item/pike_myrmexdesert"
+  },
+  "parent": "spartanweaponry:item/pike_wood"
+}

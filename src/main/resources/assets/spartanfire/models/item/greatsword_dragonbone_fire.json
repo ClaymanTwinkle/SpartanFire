@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "spartanfire:item/greatsword_dragonbone_fire"
+  },
+  "parent": "spartanweaponry:item/greatsword_wood"
+}

@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "spartanfire:item/hammer_dragonsteel_fire"
+  },
+  "parent": "spartanweaponry:item/hammer_wood"
+}

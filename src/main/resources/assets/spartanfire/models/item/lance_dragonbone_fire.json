@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "spartanfire:item/lance_dragonbone_fire"
+  },
+  "parent": "spartanweaponry:item/lance_wood"
+}

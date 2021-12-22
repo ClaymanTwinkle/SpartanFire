@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "spartanfire:item/saber_ice_dragon"
+  },
+  "parent": "spartanweaponry:item/saber_wood"
+}

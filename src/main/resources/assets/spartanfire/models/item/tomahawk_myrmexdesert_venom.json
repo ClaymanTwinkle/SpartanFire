@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "spartanfire:item/tomahawk_myrmexdesert_venom"
+  },
+  "parent": "spartanweaponry:item/tomahawk_wood"
+}

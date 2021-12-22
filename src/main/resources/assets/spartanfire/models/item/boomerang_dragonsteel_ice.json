@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "spartanfire:item/boomerang_dragonsteel_ice"
+  },
+  "parent": "spartanweaponry:item/boomerang_wood"
+}

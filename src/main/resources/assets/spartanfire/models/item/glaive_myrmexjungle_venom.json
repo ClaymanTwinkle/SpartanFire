@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "spartanfire:item/glaive_myrmexjungle_venom"
+  },
+  "parent": "spartanweaponry:item/glaive_wood"
+}

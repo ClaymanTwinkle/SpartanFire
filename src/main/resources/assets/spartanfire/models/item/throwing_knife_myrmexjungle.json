@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "spartanfire:item/throwing_knife_myrmexjungle"
+  },
+  "parent": "spartanweaponry:item/throwing_knife_wood"
+}

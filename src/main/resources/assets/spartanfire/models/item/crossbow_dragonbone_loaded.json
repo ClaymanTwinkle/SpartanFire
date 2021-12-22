@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "spartanfire:item/crossbow_dragon_loaded"
+  },
+  "parent": "spartanweaponry:item/crossbow_wood"
+}

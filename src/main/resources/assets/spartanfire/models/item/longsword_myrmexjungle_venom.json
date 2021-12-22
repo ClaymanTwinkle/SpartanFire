@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "spartanfire:item/longsword_myrmexjungle_venom"
+  },
+  "parent": "spartanweaponry:item/longsword_wood"
+}
