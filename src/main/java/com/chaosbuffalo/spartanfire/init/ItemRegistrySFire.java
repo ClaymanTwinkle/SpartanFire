@@ -77,15 +77,14 @@ public class ItemRegistrySFire {
                         new IceSwordWeaponProperty(DRAGONBONE_ICE, SpartanFire.MODID)
                 )
         );
-// TODO
-//        MATERIALS_TO_REGISTER.add(
-//                Utils.spartanMatFromToolMat(
-//                        DRAGONBONE_LIGHTNING,
-//                        IafItemRegistry.LIGHTNING_DRAGONBONE_TOOL_MATERIAL,
-//                        9867904,
-//                        14999238,
-//                        "dragonbone",
-//                        new LightningSwordWeaponProperty(DRAGONBONE_LIGHTNING, SpartanFire.MODID)));
+        MATERIALS_TO_REGISTER.add(
+                Utils.spartanMatFromToolMat(
+                        DRAGONBONE_LIGHTNING,
+                        IafItemRegistry.LIGHTNING_DRAGONBONE_TOOL_MATERIAL,
+                        9867904,
+                        14999238,
+                        "dragonbone",
+                        new LightningSwordWeaponProperty(DRAGONBONE_LIGHTNING, SpartanFire.MODID)));
         MATERIALS_TO_REGISTER.add(
                 Utils.spartanMatFromToolMat(
                         MYRMEXJUNGLE,
@@ -148,15 +147,14 @@ public class ItemRegistrySFire {
                         new FireDragonsteelWeaponProperty(DRAGONSTEEL_FIRE, SpartanFire.MODID)
                 )
         );
-        // TODO
-//        MATERIALS_TO_REGISTER.add(
-//                Utils.spartanMatFromToolMat(
-//                        DRAGONSTEEL_LIGHTNING,
-//                        IafItemRegistry.DRAGONSTEEL_LIGHTNING_TOOL_MATERIAL,
-//                        9867904,
-//                        14999238,
-//                        "dragonsteel_lightning_ingot",
-//                        new LightningDragonsteelWeaponProperty(DRAGONSTEEL_LIGHTNING, SpartanFire.MODID)));
+        MATERIALS_TO_REGISTER.add(
+                Utils.spartanMatFromToolMat(
+                        DRAGONSTEEL_LIGHTNING,
+                        IafItemRegistry.DRAGONSTEEL_LIGHTNING_TOOL_MATERIAL,
+                        9867904,
+                        14999238,
+                        "dragonsteel_lightning_ingot",
+                        new LightningDragonsteelWeaponProperty(DRAGONSTEEL_LIGHTNING, SpartanFire.MODID)));
     }
 
     @SubscribeEvent
@@ -308,7 +306,8 @@ public class ItemRegistrySFire {
 
         logger.info("SpartanFire: registerItems");
 
-        // printTranslate(item_set);
+//        printTranslate(item_set);
+//        printTranslateEn(item_set);
     }
 
     @OnlyIn(Dist.CLIENT)
@@ -341,13 +340,14 @@ public class ItemRegistrySFire {
         typeMap.put(".javelin_", "标枪");
         typeMap.put(".battleaxe_", "战斧");
         typeMap.put(".boomerang_", "回力镖");
-        typeMap.put(".flanged_mace_", "凸缘钉头锤");
+        typeMap.put(".flanged_mace_", "钉头锤");
         typeMap.put(".quarterstaff_", "长棍");
         typeMap.put(".glaive_", "长柄刀");
 
         Map<String, String> materialMap = new HashMap<String, String>();
         materialMap.put("dragonbone_fire", "火龙骨");
         materialMap.put("dragonbone_ice", "冰龙骨");
+        materialMap.put("dragonbone_lightning", "雷霆龙骨");
         materialMap.put("dragonbone", "龙骨");
         materialMap.put("myrmexjungle_venom", "林蚁蛰针");
         materialMap.put("myrmexdesert_venom", "沙蚁蛰针");
@@ -405,6 +405,7 @@ public class ItemRegistrySFire {
         Map<String, String> materialMap = new HashMap<String, String>();
         materialMap.put("dragonbone_fire", "Flamed Dragonbone ");
         materialMap.put("dragonbone_ice", "Iced Dragonbone ");
+        materialMap.put("dragonbone_lightning", "Lightning Dragonbone");
         materialMap.put("dragonbone", "Dragonbone ");
         materialMap.put("myrmexjungle_venom", "Jungle Myrmex Stinger ");
         materialMap.put("myrmexdesert_venom", "Desert Myrmex Stinger ");

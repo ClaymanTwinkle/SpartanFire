@@ -11,6 +11,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 import net.minecraft.util.DamageSource;
+import net.minecraft.util.math.MathHelper;
 
 public class IceSwordWeaponProperty extends MeleeCallbackWeaponTrait {
 
@@ -26,6 +27,6 @@ public class IceSwordWeaponProperty extends MeleeCallbackWeaponTrait {
         frozenProps.setFrozenFor(200);
         target.addPotionEffect(new EffectInstance(Effects.SLOWNESS, 100, 2));
         target.addPotionEffect(new EffectInstance(Effects.MINING_FATIGUE, 100, 2));
-        target.applyKnockback(1F, attacker.getPosX() - target.getPosX(), attacker.getPosZ() - target.getPosZ());
+        target.applyKnockback(0.5F, (double) MathHelper.sin(attacker.rotationYaw * ((float)Math.PI / 180F)), (double)(-MathHelper.cos(attacker.rotationYaw * ((float)Math.PI / 180F))));
     }
 }

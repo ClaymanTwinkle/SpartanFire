@@ -9,6 +9,7 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
+import net.minecraft.util.math.MathHelper;
 
 public class IceDragonsteelWeaponProperty extends MeleeCallbackWeaponTrait {
 
@@ -20,6 +21,6 @@ public class IceDragonsteelWeaponProperty extends MeleeCallbackWeaponTrait {
         FrozenEntityProperties frozenProps = EntityPropertiesHandler.INSTANCE.getProperties(target, FrozenEntityProperties.class);
         frozenProps.setFrozenFor(300);
         target.addPotionEffect(new EffectInstance(Effects.SLOWNESS, 300, 2));
-        target.applyKnockback(1F, attacker.getPosX() - target.getPosX(), attacker.getPosZ() - target.getPosZ());
+        target.applyKnockback(0.5F, MathHelper.sin(attacker.rotationYaw * ((float)Math.PI / 180F)), -MathHelper.cos(attacker.rotationYaw * ((float)Math.PI / 180F)));
     }
 }
