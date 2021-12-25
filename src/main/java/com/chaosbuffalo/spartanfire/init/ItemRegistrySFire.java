@@ -355,6 +355,7 @@ public class ItemRegistrySFire {
         materialMap.put("myrmexdesert", "沙蚁");
         materialMap.put("dragonsteel_ice", "龙霜钢");
         materialMap.put("dragonsteel_fire", "龙炎钢");
+        materialMap.put("dragonsteel_lightning", "龙霆钢");
 
         items.forEach(item -> {
                     String key = item.getTranslationKey();
@@ -413,6 +414,7 @@ public class ItemRegistrySFire {
         materialMap.put("myrmexdesert", "Desert Myrmex ");
         materialMap.put("dragonsteel_ice", "Ice Dragonsteel ");
         materialMap.put("dragonsteel_fire", "Fire Dragonsteel ");
+        materialMap.put("dragonsteel_lightning", "Lightning Dragonsteel");
 
         items.forEach(item -> {
                     String key = item.getTranslationKey();
