@@ -1,0 +1,1 @@
+{"pattern": ["bsi", "sw ", "i h"], "type": "minecraft:crafting_shaped", "result": {"item": "spartanfire:heavy_crossbow_dragonsteel_lightning"}, "key": {"i": {"tag": "forge:ingots/dragonsteel_lightning"}, "h": {"item": "spartanfire:witherbone_handle"}, "s": {"item": "minecraft:string"}, "b": {"item": "minecraft:bow"}, "w": {"tag": "minecraft:planks"}}}

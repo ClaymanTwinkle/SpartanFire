@@ -1,0 +1,1 @@
+{"pattern": [" ii", " si", "h  "], "type": "minecraft:crafting_shaped", "result": {"item": "spartanfire:flanged_mace_dragonsteel_lightning"}, "key": {"i": {"tag": "forge:ingots/dragonsteel_lightning"}, "h": {"item": "spartanfire:witherbone_handle"}, "s": {"tag": "forge:rods/wooden"}}}

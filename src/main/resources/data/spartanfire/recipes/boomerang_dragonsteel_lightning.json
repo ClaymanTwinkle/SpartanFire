@@ -1,0 +1,1 @@
+{"pattern": ["iww", "w  ", "w  "], "type": "minecraft:crafting_shaped", "result": {"item": "spartanfire:boomerang_dragonsteel_lightning"}, "key": {"i": {"tag": "forge:ingots/dragonsteel_lightning"}, "w": {"tag": "minecraft:planks"}}}

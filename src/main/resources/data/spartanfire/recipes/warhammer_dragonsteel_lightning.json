@@ -1,0 +1,1 @@
+{"pattern": ["ii", " h"], "type": "minecraft:crafting_shaped", "result": {"item": "spartanfire:warhammer_dragonsteel_lightning"}, "key": {"i": {"tag": "forge:ingots/dragonsteel_lightning"}, "h": {"item": "spartanfire:witherbone_handle"}}}

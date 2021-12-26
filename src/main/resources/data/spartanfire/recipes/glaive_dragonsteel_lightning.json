@@ -1,0 +1,1 @@
+{"pattern": [" i ", " i ", "ip "], "type": "minecraft:crafting_shaped", "result": {"item": "spartanfire:glaive_dragonsteel_lightning"}, "key": {"i": {"tag": "forge:ingots/dragonsteel_lightning"}, "p": {"item": "spartanfire:witherbone_pole"}}}

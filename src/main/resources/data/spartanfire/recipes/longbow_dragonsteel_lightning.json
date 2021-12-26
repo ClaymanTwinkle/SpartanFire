@@ -1,0 +1,1 @@
+{"pattern": ["hwi", "w s", "iss"], "type": "minecraft:crafting_shaped", "result": {"item": "spartanfire:longbow_dragonsteel_lightning"}, "key": {"i": {"tag": "forge:ingots/dragonsteel_lightning"}, "h": {"item": "spartanfire:witherbone_handle"}, "s": {"item": "minecraft:string"}, "w": {"tag": "forge:rods/wooden"}}}
